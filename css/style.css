@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* comienza el header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.header, .img{
+    width: 1040px;
+    height: 100px;
+}
+.header, .ul1{
+    display: flex;
+}
+.header, .li1{
+    list-style: none;
+    margin-left: 15px;
+}
+/* TERMINA EL HEADER */
+/* 
+COMIENZA EL MAIN */
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    margin-left: 10px;
+    position: relative;
+    width: 1040px;
+    }
+
+.hijo1{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 5px;
+}    
+.letra{
+    position: absolute;
+    width: 490px;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.color{
+    color: red;
+}
+.hijo2{
+    width: 450px;
+    height: 354px;
+    background-color: beige;
+    position: relative;
+    border-radius: 1.5%;
+}
+.text2{
+    width: 490px;
+    text-align: center;
+    padding: 20px;
+    color: red;
+}
+.text3{
+    font-weight: 1000 ;
+    padding-left: 50px;
+    padding-bottom: 40px; 
+    padding-top: 30px;
+    
+}
+
+.li1{
+    padding-left: 25px;
+}
+.img{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+/* 
+TERMINA EL MAIN */
+/* 
+AQUI COMIENZA EL FOOTER */
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 1040px;
+    margin-left: 15px;
+}
+.fhijo{
+    padding-left: 30px;
+    
+    
+}
+
+.lif{
+    padding-top:5px;
+    list-style: none;
+}
+
+/* 
+AQUI TERMINA EL FOOTER */
